@@ -2,8 +2,7 @@
 
 https://www.youtube.com/watch?v=I_LC4dUhBVI
 
-
-![Скриншот](devkg.jpg "Dev.KG")
+[![Dev.KG](devkg.jpg "Dev.KG")](http://dev.kg/)
 
 
 ## Ссылки
