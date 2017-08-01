@@ -19,7 +19,12 @@ import java.util.List;
 @RequestMapping("/api")
 public class ApiController {
 
-    @Autowired private UserService userService;
+    private final UserService userService;
+
+    @Autowired
+    public ApiController(UserService userService) {
+        this.userService = userService;
+    }
 
     @RequestMapping(value = "/users", produces = "application/json")
     public List<User> getUsers() {

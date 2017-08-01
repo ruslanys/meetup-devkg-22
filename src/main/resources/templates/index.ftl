@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Meetup :: Dev.KG</title>
+    <title>MeetUp :: Dev.KG</title>
 </head>
 <body>
 Hello Dev.kg!

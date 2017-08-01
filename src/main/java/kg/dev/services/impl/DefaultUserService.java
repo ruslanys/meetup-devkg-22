@@ -14,8 +14,12 @@ import java.util.List;
 @Service
 public class DefaultUserService implements UserService {
 
+    private final UserRepository userRepository;
+
     @Autowired
-    private UserRepository userRepository;
+    public DefaultUserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     @Override
     public List<User> getAll() {
